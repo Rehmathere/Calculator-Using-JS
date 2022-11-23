@@ -1,0 +1,76 @@
+.text-centre{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+.text-centre:hover{
+    text-shadow: 3px 3px 3px brown;
+}
+.container{
+    background-color:darkkhaki;
+    border: 3px solid black;
+    border-radius: 30px;
+    width:340px;
+    height:510px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+}
+.button{
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+}
+.button:hover{
+    background-color: rgb(82, 79, 79);
+}
+.row{
+    margin: 3px;
+    padding: 3px;
+}
+.mxauto{
+    margin: auto;
+}
+.mw20{
+    max-width: 20vw;
+}
+.flex{
+    display: flex;
+}
+.flexcol{
+    flex-direction: column;
+}
+.items_center{
+    align-items: center;
+}
+.row input{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 270px;
+    height: 90px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+section::before{
+    background: url('https://source.unsplash.com/300x300') no-repeat center center/cover;
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+#meratime:hover{
+    box-shadow: 3px 3px 3px brown;
+}
